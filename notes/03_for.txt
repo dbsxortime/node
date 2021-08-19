@@ -1,0 +1,21 @@
+# 반복적인 HTML태그
+
+  <div class="menu">
+    <a v-for="menu in menu_title" :key="menu" > {{menu}} </a>
+  </div>
+
+  <h1 class="red" :style="title_style">윤택샵</h1>
+
+  <div v-for="(product,i) in products" :key="product">
+    <h4>{{products[i]}}</h4>
+    <p>{{price[i]}}만 원</p>
+  </div>
+
+  data(){
+    return{
+      products: ['박윤택','안태균','유정은'],
+      price: ['10','20','30'],
+      menu_title : ['Home','Product','About']
+    }
+  }
+

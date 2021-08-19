@@ -1,0 +1,26 @@
+# install Node.js
+# terminal : npm install -g @vue/cli
+
+# install vscode extention
+	-Vetur
+	-HTML css support
+	-vue 3 snippets
+
+** if error with npm~ or yarn : visit this site
+https://online.codingapple.com/unit/vue-3-installation-with-vue-cli/?id=139
+
+** if install yarn : write this to terminal intead of 'npm install -g @vue/cli'
+yarn global add @vue/cli
+
+# open folder
+# terminal : vue create 'project name'
+>>vue3
+
+# open folder as 'project name'
+
+'App.vue' will include to index by 'main.js'
+
+# vue add vuetify
+>>insert vuetify
+
+# terminal : npm run serve	: preview server

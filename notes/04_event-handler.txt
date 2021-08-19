@@ -1,0 +1,23 @@
+@click=""		(instead of onclick="")
+@mouseover=""
+	.
+	.
+	.
+
+
+  <button v-on:click="count++">허위매물 신고</button> <span>신고 수 : {{count}}</span>
+
+  data(){
+    return{
+      products: ['박윤택','안태균','유정은'],
+      price: ['10','20','30'],
+      menu_title : ['Home','Product','About'],
+      count : 0,
+    }
+  },
+
+data(){
+},
+methods : {
+  this.value++;
+}

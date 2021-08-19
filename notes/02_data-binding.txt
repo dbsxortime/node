@@ -1,0 +1,33 @@
+# terminal : npm run server
+
+<template>
+  <img alt="Vue logo" src="./assets/logo.png">
+  <div>
+    <h1 class="red" :style="title_style">윤택샵</h1>
+    <h4>{{products[0]}}</h4>
+    <p>{{price[0]}}만 원</p>
+  </div>
+  <div>
+    <h4>{{products[1]}}</h4>
+    <p>{{price[1]}}만 원</p>
+  </div>
+  <div>
+    <h4>{{products[2]}}</h4>
+    <p>{{price[2]}}만 원</p>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'App',
+  data(){
+    return{
+      products: ['박윤택','안태균','유정은'],
+      price: ['10','20','30'],
+    }
+  },
+  components: {
+    
+  }
+}
+</script>
