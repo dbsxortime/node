@@ -1,6 +1,6 @@
 # node
 
-<span>test node.js</span>
+<p>test node.js</p>
 
 
 <br/>
@@ -9,7 +9,7 @@
 
 # notes
 
-<span>notes for own.js node tips</span>
+<p>notes for own.js node tips</p>
 
 
 <br/>
@@ -18,8 +18,12 @@
 
 # test-daily
 
-<span>test daily project with online lecture</span>
-
+<p>test daily project with online lecture</p>
+<p>developed with vue.js / node.js / firebase</p>
+<p>size for mobile</p>
+<a href="https://my-daily-384f1.web.app/">
+  <span>Go site</span>
+</a>
 
 <br/>
 <br/>
@@ -28,4 +32,4 @@
 
 # vvuevvue
 
-<span>my first node test with online lecture</span>
+<p>my first node.js / vue.js with vuetify test with online lecture</p>
